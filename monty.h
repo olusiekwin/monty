@@ -52,7 +52,7 @@ void pint(stack_t **stack, unsigned int line);
 
 
 void nop(stack_t **stack, unsigned int line);
-void get_ops(FILE *oc);
+void get_ops(FILE *ops);
 void exec_ops(stack_t **stack, unsigned int line);
 stack_t *add_node_end(stack_t **head, const int g);
 void freeList(stack_t *head);
