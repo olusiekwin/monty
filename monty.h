@@ -63,5 +63,7 @@ void push(stack_t **stack, unsigned int line);
 
 
 extern char *ops[];
+char *ops[] = {NULL, NULL, "stack", NULL};
+
 
 #endif /* MONTY_H */
