@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "monty.h"
 
-
+char *ops[] = {NULL, NULL, "stack", NULL};
 /**
 * main - main function for monty
 * @argc: argument counter
