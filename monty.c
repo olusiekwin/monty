@@ -12,8 +12,6 @@ char *ops[] = {NULL, NULL, "stack", NULL};
 int main(int argc, char **argv)
 {
 
-char *ops[] = {NULL, NULL, "stack", NULL};
-
 FILE *opc;
 
 if (argc != 2)
