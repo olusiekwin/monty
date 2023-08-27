@@ -1,4 +1,6 @@
 #include "monty.h"
+
+char *op[] = {NULL, NULL, "stack", NULL};
 /**
 * nop - Does absolutely nothing
 * @stack: voided out

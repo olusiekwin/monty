@@ -1,6 +1,6 @@
 #include "monty.h"
 
-char *op[] = {NULL, NULL, "stack", NULL};
+extern char *op[];
 
 /**
 * main - Entry point for the Monty interpreter
